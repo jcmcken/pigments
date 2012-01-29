@@ -20,6 +20,7 @@ Available colors are:
 * magenta
 * cyan
 * white
+* black
 
 To enable bold, pass ``bold=True`` as an argument to any of the color functions.
 
