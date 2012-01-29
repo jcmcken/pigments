@@ -11,5 +11,21 @@ Usage is simple::
 
     print red('This is red') + ' ' + green('and this is green')
 
+Available colors are:
+
+* red
+* green
+* yellow
+* blue
+* magenta
+* cyan
+* white
+
+To enable bold, pass ``bold=True`` as an argument to any of the color functions.
+
+E.g.::
+
+    print cyan('This is bold cyan!!', bold=True)
+ 
 .. _Fabric: http://fabfile.org
 .. _here: http://github.com/fabric/fabric
